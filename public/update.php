@@ -10,5 +10,5 @@ touch( __DIR__ . '/.throttle' );
 
 shell_exec( sprintf(
 	'cd %s && git reset --hard HEAD && git pull',
-	escapeshellarg( __DIR__ )
+	escapeshellarg( dirname( __DIR__ ) )
 ) );
