@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>World RX Live Dashboard</title>
+	<title>World Rallycross Championship Live Dashboard | #WorldRX 2017</title>
 	<style>
 		body { font:14px/1.4 sans-serif; margin:0; padding:0; background:#000; color:#fff; }
 		a { color:#fff; }
