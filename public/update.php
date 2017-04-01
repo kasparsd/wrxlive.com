@@ -1,6 +1,6 @@
 <?php
 
-$throttle = ( time() - filemtime( __DIR__ . '/.throttle' ) < 300 );
+$throttle = ( time() - filemtime( __DIR__ . '/.throttle' ) < 60 );
 
 if ( empty( $_POST['payload'] ) || $throttle ) {
 	return;
