@@ -2,7 +2,7 @@
 
 $throttle = ( time() - filemtime( __DIR__ . '/.throttle' ) < 60 );
 
-if ( empty( $_POST['payload'] ) || $throttle ) {
+if ( $throttle ) {
 	return;
 }
 
